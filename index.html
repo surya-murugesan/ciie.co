@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BII Portfolio Updates</title>
+</head>
+
+<body>
+
+    <div id="table">
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="gsheet-table.js"></script>
+    <script>
+        gsheet2table(
+            'https://docs.google.com/spreadsheets/d/e/2PACX-1vSqQWyH_vRdn4D8jn5zfAbyAzOkdr1Y6SFTerZ8T-BFxfOyqHfn4UsMYng9pNC3-PMswquBsf4YeqNL/pubhtml',
+            1, 'table');
+    </script>
+
+</body>
+
+</html>
